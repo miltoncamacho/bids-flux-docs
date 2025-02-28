@@ -1,13 +1,11 @@
-Welcome to Lumache's documentation!
+Welcome to BIDS-flux documentation!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+**BIDS-flux** continuous federated multi-site dataset creation from research instruments to open-publication with a datalad backbone.
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+Managing large-scale research data is complex, requiring expertise, infrastructure, and adherence to FAIR principles (Findability, Accessibility, Interoperability, and Reusability) while ensuring privacy and security. To address this, we developed a scalable FAIR data management platform for neuroimaging, integrating BIDS, DataLad, GitLab, and MinIO for automated data ingestion, standardization, anonymization, validation, and quality control.
+
+The platform supports distributed dataset creation, enabling multiple research sites to contribute via decentralized DataLad repositories, with federation mechanisms ensuring seamless integration and collection of data. While designed for neuroimaging, this modular framework can be adapted to other scientific fields.
 
 .. note::
 
@@ -19,4 +17,4 @@ Contents
 .. toctree::
 
    usage
-   api
+

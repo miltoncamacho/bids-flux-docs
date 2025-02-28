@@ -1,34 +1,42 @@
-Usage
+User Guide
 =====
 
 .. _installation:
 
-Installation
+Infraestructure
 ------------
 
-To use Lumache, first install it using pip:
+This is an overview of the infraestructure:
+#TODO add squematic
 
-.. code-block:: console
+.. .. code-block:: console
 
-   (.venv) $ pip install lumache
+..    (.venv) $ pip install lumache
 
-Creating recipes
+Explanation of pipeliens
 ----------------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+Showcase pipelines
+----------------
 
-.. autofunction:: lumache.get_random_ingredients
+How to access data?
+----------------
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
 
-.. autoexception:: lumache.InvalidKindError
+.. To retrieve a list of random ingredients,
+.. you can use the ``lumache.get_random_ingredients()`` function:
 
-For example:
+.. .. autofunction:: lumache.get_random_ingredients
 
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
+.. The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
+.. or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
+.. will raise an exception.
+
+.. .. autoexception:: lumache.InvalidKindError
+
+.. For example:
+
+.. >>> import lumache
+.. >>> lumache.get_random_ingredients()
+.. ['shells', 'gorgonzola', 'parsley']
 
